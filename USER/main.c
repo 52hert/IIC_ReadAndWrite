@@ -24,8 +24,8 @@ int main(void)
 	while (1)
 	{
 		HAL_GPIO_WritePin(AW_RST_GPIO_Port, AW_RST_Pin, GPIO_PIN_RESET); // PB5清0，默认初始化后灯灭
-		delay_ms(500);
+		delay_ms(1000);
 		HAL_GPIO_WritePin(AW_RST_GPIO_Port, AW_RST_Pin, GPIO_PIN_SET); // PB5清0，默认初始化后灯灭
-		delay_ms(500);
+		delay_ms(1000);
 	}
 }

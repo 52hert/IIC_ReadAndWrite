@@ -9,7 +9,7 @@
  *
  *********************************************************/
 /* #define AWINIC_DEBUG_LOG */
-//#define AWINIC_INFO_LOG
+#define AWINIC_INFO_LOG
 //#define AWINIC_ERR_LOG
 #define AW_CHECK_RAM_DATA
 //#define AW_IRQ_CONFIG
